@@ -20,3 +20,25 @@
 - [ ] If applicable, edit the basic bug report template: `/.github/ISSUE_TEMPLATE/bug.md`
 - [ ] If applicable, edit the basic pull request template: `/.github/PULL_REQUEST_TEMPLATE.md`
 - [ ] If applicable, edit the contributing guidelines: `/.github/contributing.md`
+
+## Repo Structure
+
+Most code repositories should have at minimum the following structure:
+
+```
+root directory
++- .github
+| +- ISSUE_TEMPLATE
+| | +- bug.md
+| | CODE_OF_CONDUCT.md
+| | contributing.md
+| | LICENSE
+| | PULL_REQUEST_TEMPLATE.md
+| | README.md
++- docs
+| | index.md
++- src
++- tests
+```
+
+Frequently, the `tests` directory may be better located under `src`.  Most 
