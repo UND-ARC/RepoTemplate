@@ -32,13 +32,14 @@ root directory
 | | +- bug.md
 | | CODE_OF_CONDUCT.md
 | | contributing.md
-| | LICENSE
 | | PULL_REQUEST_TEMPLATE.md
 | | README.md
 +- docs
 | | index.md
 +- src
 +- tests
+| LICENSE
+| .gitignore
 ```
 
 Frequently, the `tests` directory may be better located under `src`.  Most of the
