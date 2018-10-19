@@ -41,4 +41,7 @@ root directory
 +- tests
 ```
 
-Frequently, the `tests` directory may be better located under `src`.  Most 
+Frequently, the `tests` directory may be better located under `src`.  Most of the
+time, however, it'll be its own directory.  The directory structure of `tests`
+should mirror exactly that of `src`, however, the code in the file(s) will
+not be program code, but instead be comprised of unit tests.
