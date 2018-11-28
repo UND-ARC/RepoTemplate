@@ -1,3 +1,9 @@
+---
+name: Bug Report
+about: Submit a report of a bug/issue/unexpected behavior/etc
+
+---
+
 **Describe the bug**  
 A clear and concise description of what the bug is.
 
